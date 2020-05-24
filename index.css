@@ -1,0 +1,176 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+header{
+    text-align: center;
+    margin: 40px 0px 0px;
+}
+
+header img{
+    width: 18%;
+    margin: 0px 0px 5px;
+}
+header p{
+    margin: 0px 0px;
+    margin: 0px 15px;
+    font-size: 16px;
+}
+
+/*---- LANGUAGES-----*/
+.languages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.languages__container{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 350px;
+}
+.languages__left{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.languages__img{
+    width: 35%;
+}
+.languages__left a, .languages__right a{
+    margin: 0;
+    font-weight: bold;
+    color: #36c;
+
+}
+.languages__left a:hover, .languages__right a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.languages__left p, .languages__right p{
+    margin: 0;
+    font-size: small;
+    
+}
+
+/*---Languages ITEMS ---*/
+
+.languages__item1{
+    top: 130px;
+    right: 60%;
+    position: absolute;
+}
+.languages__item2{
+    top: 190px;
+    right: 65%;
+    position: absolute;
+}
+
+.languages__item3{
+    top: 250px;
+    right: 67%;
+    position: absolute;
+}
+
+.languages__item4{
+    top: 310px;
+    right: 65%;
+    position: absolute;
+}
+
+.languages__item5{
+    top: 370px;
+    right: 60%;
+    position: absolute;
+}
+
+
+
+.languages__item6{
+    top: 130px;
+    left: 60%;
+    position: absolute;
+}
+.languages__item7{
+    top: 190px;
+    left: 65%;
+    position: absolute;
+}
+
+.languages__item8{
+    top: 250px;
+    left: 67%;
+    position: absolute;
+}
+
+.languages__item9{
+    top: 310px;
+    left: 65%;
+    position: absolute;
+}
+
+.languages__item10{
+    top: 370px;
+    left: 60%;
+    position: absolute;
+}
+
+/*Input Languages*/
+
+.chooselang{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chooselang__input{
+    display: flex;
+    width: 460px;
+    border: 1px solid silver;
+    height: 45px;
+    justify-content: space-between;
+  
+}
+
+.chooselang__input input{
+   width: 100%;
+   border:none;
+   
+}
+
+ .chooselang__input--combobox{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    text-decoration: none;
+    cursor:pointer;
+    height: auto;
+ }
+ .chooselang__input--combobox:hover{
+    background-color: silver;
+ }
+
+.chooselang__input button{
+    justify-self: flex-end;
+    align-items: center;
+    background-color: #36c;
+    border-color: none;
+
+}
+button{
+    border:none;
+}
+
+.chooselang__input img{
+    margin: 7px 5px;
+    width: 25px;
+}
